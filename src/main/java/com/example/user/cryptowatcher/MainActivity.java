@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,8 +18,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 
-import com.example.jacob.cryptowatcher.adapter.CoinListAdapter;
-import com.example.jacob.cryptowatcher.database.DbHelper;
+import com.example.user.cryptowatcher.adapter.CoinListAdapter;
+import com.example.user.cryptowatcher.database.DbHelper;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 //Sets my phone as a test device so test adds SHOULD be shown
-                .addTestDevice("4F1F603A9B267B0FBC1FB7C8FE51361D")
+                .addTestDevice("TESTDEVICEID")
                 .build();
         mAdView.loadAd(adRequest);
     }

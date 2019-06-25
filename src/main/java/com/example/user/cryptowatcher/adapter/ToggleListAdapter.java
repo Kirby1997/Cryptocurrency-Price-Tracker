@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher.adapter;
+package com.example.user.cryptowatcher.adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -22,11 +22,11 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.jacob.cryptowatcher.CoinInformationActivity;
-import com.example.jacob.cryptowatcher.CoinToggle;
-import com.example.jacob.cryptowatcher.MainActivity;
-import com.example.jacob.cryptowatcher.R;
-import com.example.jacob.cryptowatcher.database.DbHelper;
+import com.example.user.cryptowatcher.CoinInformationActivity;
+import com.example.user.cryptowatcher.CoinToggle;
+import com.example.user.cryptowatcher.MainActivity;
+import com.example.user.cryptowatcher.R;
+import com.example.user.cryptowatcher.database.DbHelper;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -41,7 +41,7 @@ import java.util.Objects;
 
 
 /**
- * Created by Jacob on 24/03/2018.
+ * Created by user on 24/03/2018.
  */
 
 public class ToggleListAdapter extends ArrayAdapter<CoinToggle> {

@@ -1,9 +1,9 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 
 
 /**
- * Created by Jacob on 23/03/2018.
+ * Created by user on 23/03/2018.
  */
 
 public class CoinToggle {

@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher.model;
+package com.example.user.cryptowatcher.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

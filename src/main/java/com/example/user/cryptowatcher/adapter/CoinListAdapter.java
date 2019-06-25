@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher.adapter;
+package com.example.user.cryptowatcher.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.jacob.cryptowatcher.Coin;
-import com.example.jacob.cryptowatcher.CoinInformationActivity;
-import com.example.jacob.cryptowatcher.R;
+import com.example.user.cryptowatcher.Coin;
+import com.example.user.cryptowatcher.CoinInformationActivity;
+import com.example.user.cryptowatcher.R;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -27,7 +27,7 @@ import java.util.ArrayList;
 
 
 /**
- * Created by Jacob on 24/03/2018.
+ * Created by user on 24/03/2018.
  */
 
 public class CoinListAdapter extends ArrayAdapter<Coin> {

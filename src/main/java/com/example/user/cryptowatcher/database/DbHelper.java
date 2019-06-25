@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher.database;
+package com.example.user.cryptowatcher.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.jacob.cryptowatcher.R;
+import com.example.user.cryptowatcher.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,12 +19,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import static com.example.jacob.cryptowatcher.database.DbContract.CoinEntry.COLUMN_ENABLED;
-import static com.example.jacob.cryptowatcher.database.DbContract.CoinEntry.COLUMN_ID;
-import static com.example.jacob.cryptowatcher.database.DbContract.CoinEntry.COLUMN_NAME;
-import static com.example.jacob.cryptowatcher.database.DbContract.CoinEntry.COLUMN_PRICEUSD;
-import static com.example.jacob.cryptowatcher.database.DbContract.CoinEntry.COLUMN_SYMBOL;
-import static com.example.jacob.cryptowatcher.database.DbContract.CoinEntry.TABLE_NAME;
+import static com.example.user.cryptowatcher.database.DbContract.CoinEntry.COLUMN_ENABLED;
+import static com.example.user.cryptowatcher.database.DbContract.CoinEntry.COLUMN_ID;
+import static com.example.user.cryptowatcher.database.DbContract.CoinEntry.COLUMN_NAME;
+import static com.example.user.cryptowatcher.database.DbContract.CoinEntry.COLUMN_PRICEUSD;
+import static com.example.user.cryptowatcher.database.DbContract.CoinEntry.COLUMN_SYMBOL;
+import static com.example.user.cryptowatcher.database.DbContract.CoinEntry.TABLE_NAME;
 
 public class DbHelper extends SQLiteOpenHelper {
     private static final String TAG = DbHelper.class.getSimpleName();

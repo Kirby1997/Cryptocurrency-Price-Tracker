@@ -1,12 +1,12 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ListView;
-import com.example.jacob.cryptowatcher.adapter.ToggleListAdapter;
-import com.example.jacob.cryptowatcher.database.DbHelper;
+import com.example.user.cryptowatcher.adapter.ToggleListAdapter;
+import com.example.user.cryptowatcher.database.DbHelper;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 

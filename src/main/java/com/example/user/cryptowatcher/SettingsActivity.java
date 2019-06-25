@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,17 +23,17 @@ public class SettingsActivity extends AppCompatActivity {
         //banner ad
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("4F1F603A9B267B0FBC1FB7C8FE51361D")
+                .addTestDevice("TESTDEVICEID")
                 .build();
         mAdView.loadAd(adRequest);
 
         //interstitial ad
         mInterstitialAd = new InterstitialAd(this);
         //setting to the test ads
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("AdUnitId");
         mInterstitialAd.loadAd(new AdRequest.Builder()
                 //ensure my phone is set to a test device
-                .addTestDevice("4F1F603A9B267B0FBC1FB7C8FE51361D")
+                .addTestDevice("TESTDEVICEID")
                 .build());
         mInterstitialAd.setAdListener(new AdListener(){
 

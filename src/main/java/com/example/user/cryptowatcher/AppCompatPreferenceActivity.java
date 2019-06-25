@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

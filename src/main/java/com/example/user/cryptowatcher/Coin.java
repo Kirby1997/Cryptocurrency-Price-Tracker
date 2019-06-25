@@ -1,10 +1,10 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 
 import java.io.Serializable;
 
 /**
- * Created by Jacob on 23/03/2018.
+ * Created by user on 23/03/2018.
  */
 // A coin object
 public class Coin implements Serializable {

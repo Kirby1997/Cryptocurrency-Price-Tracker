@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher.database;
+package com.example.user.cryptowatcher.database;
 
 import android.provider.BaseColumns;
 

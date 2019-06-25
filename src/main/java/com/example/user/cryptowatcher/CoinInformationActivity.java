@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import com.example.jacob.cryptowatcher.database.DbHelper;
+import com.example.user.cryptowatcher.database.DbHelper;
 
 public class CoinInformationActivity extends AppCompatActivity {
     private static final String TAG = "Additional Info";

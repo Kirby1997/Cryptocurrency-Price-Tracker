@@ -1,4 +1,4 @@
-package com.example.jacob.cryptowatcher;
+package com.example.user.cryptowatcher;
 
 
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.jacob.cryptowatcher.database.DbContract;
-import com.example.jacob.cryptowatcher.database.DbHelper;
+import com.example.user.cryptowatcher.database.DbContract;
+import com.example.user.cryptowatcher.database.DbHelper;
 
 import org.json.JSONArray;
 import org.json.JSONException;
