@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoinInformationActivity">
+
+    <LinearLayout
+        android:layout_width="255dp"
+        android:layout_height="281dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/id" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol" />
+
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rank" />
+
+        <TextView
+            android:id="@+id/price_usd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_usd" />
+
+        <TextView
+            android:id="@+id/price_btc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_btc" />
+
+        <TextView
+            android:id="@+id/volume_usd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_24h_volume_usd" />
+
+        <TextView
+            android:id="@+id/market_cap_usd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/market_cap_usd" />
+
+        <TextView
+            android:id="@+id/available_supply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/available_supply" />
+
+        <TextView
+            android:id="@+id/total_supply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_supply" />
+
+        <TextView
+            android:id="@+id/max_supply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/max_supply" />
+
+        <TextView
+            android:id="@+id/percent_change_1h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/percent_change_1h" />
+
+        <TextView
+            android:id="@+id/percent_change_24h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/percent_change_24h" />
+
+        <TextView
+            android:id="@+id/percent_change_7d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/percent_change_7d" />
+
+        <TextView
+            android:id="@+id/last_updated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_updated" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bitcoin" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924"
+        app:srcCompat="@drawable/backbutton" />
+
+</android.support.constraint.ConstraintLayout>

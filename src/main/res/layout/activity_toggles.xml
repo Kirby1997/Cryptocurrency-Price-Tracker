@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jacob.cryptowatcher.ToggleList">
+
+
+    <LinearLayout
+
+        android:id="@+id/headings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:background="@android:color/darker_gray"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/NameHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="33.33"
+            android:gravity="center"
+            android:text="@string/coin"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/LogoHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="33.33"
+            android:gravity="center"
+            android:text="@string/logo"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/OnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="33.33"
+            android:gravity="center"
+            android:text="@string/on_off"
+            android:textAlignment="center" />
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/toggleList"
+        android:layout_width="match_parent"
+        android:layout_height="572dp" />
+
+</LinearLayout>

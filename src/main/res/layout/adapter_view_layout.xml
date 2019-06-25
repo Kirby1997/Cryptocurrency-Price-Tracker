@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25">
+
+        <TextView
+            android:id="@+id/coinName"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/coin"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/coinSymbol"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="symbol"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="25"
+        android:contentDescription="@string/logo"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/bitcoin" />
+
+    <TextView
+        android:id="@+id/currentPriceUSD"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:text="@string/CurrentPriceUSD"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/lastUpdated"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/last_updated"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="25"/>
+
+
+
+</LinearLayout>

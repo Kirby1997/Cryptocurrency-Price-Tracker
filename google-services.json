@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "708255305432",
+    "firebase_url": "https://cryptowatcher-39863.firebaseio.com",
+    "project_id": "cryptowatcher-39863",
+    "storage_bucket": "cryptowatcher-39863.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708255305432:android:96cd5762abe38e44",
+        "android_client_info": {
+          "package_name": "com.example.jacob.cryptowatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708255305432-ilbmun2p4m17ufievjiv56c0bg4ehu3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jacob.cryptowatcher",
+            "certificate_hash": "3a812eb2bd1e58ca36c0b4dbed4f8f3e84f0fd01"
+          }
+        },
+        {
+          "client_id": "708255305432-c9jl81a27odr8id55jrh76p8b3nhuu2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXRhKwdH7I-KPlvJ9lfjCReAEQ0pkuFOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708255305432-c9jl81a27odr8id55jrh76p8b3nhuu2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

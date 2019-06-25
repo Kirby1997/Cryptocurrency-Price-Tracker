@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CryptoWatcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="coin">Coin</string>
+    <string name="symbol">SYM</string>
+    <string name="logo">Logo</string>
+    <string name="price">Price</string>
+    <string name="priceUSD">PriceUSD</string>
+    <string name="CurrentPrice">000</string>
+    <string name="CurrentPriceUSD">CurrentPriceUSD</string>
+    <string name="updated">Updated</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="_6_hours_ago">6 hours ago</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="rate_the_app">Rate The App</string>
+    <string name="grabUpdate">Update</string>
+    <string name="created_by_jacob_wilkinson">Created by Jacob Wilkinson</string>
+    <string name="on_off">On/Off</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="fillDatabase">fillDatabase</string>
+    <string name="Search">Search</string>
+    <string name="interstitial_ad">interstitial_ad</string>
+    <string name="id">ID</string>
+    <string name="rank">Rank</string>
+    <string name="price_usd">Price_USD</string>
+    <string name="price_btc">Price_BTC</string>
+    <string name="_24h_volume_usd">24h_volume_usd</string>
+    <string name="market_cap_usd">market_cap_USD</string>
+    <string name="available_supply">available_supply</string>
+    <string name="total_supply">total_supply</string>
+    <string name="percent_change_1h">percent_change_1h</string>
+    <string name="percent_change_24h">percent_change_24h</string>
+    <string name="percent_change_7d">percent_change_7d</string>
+    <string name="max_supply">max_supply</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/coinName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/coin"
+        android:textAlignment="center"
+        android:layout_weight="33.33"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:contentDescription="@string/logo"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/bitcoin"
+        android:layout_weight="33.33"/>
+
+    <Switch
+        android:id="@+id/mSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="33.33"
+        android:checked="false"
+        android:gravity="center"
+        android:showText="true"
+        android:splitTrack="false"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        tools:checked="false" />
+
+
+</LinearLayout>
